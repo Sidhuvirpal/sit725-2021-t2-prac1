@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+section.one {
+   height: 70vh; 
+   background-image: url('../images/one-bg.svg');
+   background-repeat: no-repeat;
+   background-position: right;
+    background-size: contain;
+}
+
+section.about {
+    height: 100vh;
+}
+
+section.about img {
+    max-width: 500px;
+}
+
+section.portfolio {
+    height: 100vh;
+}
+section.contact {
+    height: 100vh;
+}

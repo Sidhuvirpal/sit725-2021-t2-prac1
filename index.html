@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virpal Kaur - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Virpal Kaur</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-end">
+                    <div class="collapse navbar-collapse" id="navbarColor03">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home
+                                    <span class="visually-hidden">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="btn btn-primary" href="#contact">Hire Me</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="one d-flex justify-content-start align-items-center mt-4">
+            <div class="bg-transparent text-start container">
+                <span class="h2">Hi, I am</span><br />
+                <span class="display-3">Virpal Kaur</span><br />
+                <span class="h2">and i develop websites.</span><br />
+                <a href="#contact" class="btn btn-primary mt-3">Let's Talk &#8594;</a>
+            </div>
+        </section>
+
+        <br />
+
+        <!-- About -->
+        <section id="about" class="about py-5 d-flex align-items-center" id="about-us">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h1 class='text-primary'>About Me!</h1>
+                        <h2>Get to know me better</h2>
+                        <hr>
+                        <p>Hi, My name is Virpal Kaur and i am a student at Deakin University, Melbourne's pursuing
+                            Master of Information Technology(Course).</p>
+                        <p>I am very much into designing websites and making them come alive using code.</p>
+                        <a href="#contact" class="btn btn-primary">Let's Know More</a>
+
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex justify-content-end p-0 m-0">
+                        <img src="assets/images/about.svg" alt="About Me">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio container">
+            <div class="row">
+                <div class="gallery text-center p-5">
+                    <h1 class="gallery-title">Portfolio</h1>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h3 class="pt-2 pb-0 mb-0">Project 1</h3><br />
+                    <small class="mt-0 pt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et debitis
+                        doloribus.
+                    </small>
+                    <br />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h3 class="pt-2 pb-0 mb-0">Project 2</h3><br />
+                    <small class="mt-0 pt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et debitis
+                        doloribus.
+                    </small>
+                    <br />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
+                    <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                    <h3 class="pt-2 pb-0 mb-0">Project 3</h3><br />
+                    <small class="mt-0 pt-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et debitis
+                        doloribus.
+                    </small>
+                    <br />
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact container ext-center p-5">
+            <div class="text-center pb-4 pt-2">
+                <span class="h1">Contact</span>
+            </div>
+            <div class="row pt-4">
+                <div class="col-sm-6 col-ms-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.544854007512!2d145.11275841508657!3d-37.84753987974627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad640592c2ddceb%3A0x805bd52f251bd12!2sDeakin%20University%20Melbourne%20Burwood%20Campus!5e0!3m2!1sen!2sin!4v1626943837626!5m2!1sen!2sin"
+                        width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <form onsubmit="submitform(event)">
+                        <legend>Leave a message</legend><br />
+                        <div class="form-group">
+                            <label class="form-label" for="name">Full Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Ex. John Doe" required>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label class="form-label" for="name">Email Address</label>
+                            <input class="form-control" id="name" type="email" placeholder="john@example.com" required>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea name="" id="message" cols="30" rows="6" class="form-control"
+                                placeholder="Enter your message here.." required></textarea>
+                        </div>
+                        <br />
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="text-center mb-0 pb-4">
+            Developed by Virpal Kaur.
+        </section>
+    </main>
+
+    <script>
+        function submitform(e) {
+            e.preventDefault()
+            alert('Thanks for your message!')
+        }
+    </script>
+</body>
+
+</html>
